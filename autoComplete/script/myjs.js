@@ -15,7 +15,7 @@ $(document).ready(function(e){
 				success:function(data){
 					var s="";
 					for(var i=0;i<data.length;i++){
-					s+="<li id='"+i+"'>"+data[i].country_code+" "+data[i].country_name+"</li>";	
+					s+="<li id='"+i+"'>"+data[i].iso3+" "+data[i].name+"</li>";	
 					}
 					s+="";
 					$("#ab1").html(s);
